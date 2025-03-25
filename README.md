@@ -23,7 +23,7 @@ A subset of the Chaffin et al. (2022) data was used in this thesis. Specifically
 *   Non-failing hearts (NF) vs. Hypertrophic Cardiomyopathy (HCM)
 *   Dilated Cardiomyopathy (DCM) vs. Hypertrophic Cardiomyopathy (HCM)
 
-The selection of these pairwise comparisons reflects the research objectives of this thesis, namely to identify DEGs and transcriptional pathways relevant to cardiomyopathies. Subsequently, these results were compared to the Principal Feature Analysis (PFA) results (Caliskan et al., 2023) for the top 20 DEGs for each comparison, which were also provided by Dr. Aylin Caliskan.
+The selection of these pairwise comparisons reflects the research objectives of this thesis, namely to identify DEGs and transcriptional pathways relevant to cardiomyopathies. Subsequently, these results were compared to the Principal Feature Analysis (PFA) results (Caliskan et al., 2023) for the top DEGs for each comparison, which were also provided by Dr. Aylin Caliskan.
 
 ## Code Description
 
@@ -56,6 +56,22 @@ This approach could provide a better understanding of how cell-specific gene exp
 
 ## Dependencies and Usage
 
+### 📌 Required Libraries
+
+Ensure you have the following **Python packages** installed:
+
+```bash
+pip install pandas numpy scanpy scipy statsmodels matplotlib seaborn
+
+or
+
+conda install -c conda-forge scanpy pandas numpy scipy statsmodels matplotlib seaborn
+
+###📂 Usage
+To run the analysis, execute the Python script in your local environment or Jupyter notebook:
+
+python script.py
+
 ## References
 
 *   Caliskan, A., Rasbach, L., Yu, W., et al. (2023). Optimized cell type signatures revealed from single-cell data by combining principal feature analysis, mutual information, and machine learning. *Computational and Structural Biotechnology Journal, 21*, 3293-3314.
@@ -63,3 +79,5 @@ This approach could provide a better understanding of how cell-specific gene exp
 
 ## License
 
+This repository is released under the **MIT License**.  
+Feel free to use, modify, and distribute the code with attribution.
