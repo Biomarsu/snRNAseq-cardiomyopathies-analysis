@@ -57,19 +57,17 @@ This approach could provide a better understanding of how cell-specific gene exp
 ## Dependencies and Usage
 
 ### 📌 Required Libraries
-
-Ensure you have the following **Python packages** installed:
+Ensure you have the following Python packages installed:
 
 ```bash
 pip install pandas numpy scanpy scipy statsmodels matplotlib seaborn
 
-or
+or using Conda:
 
 conda install -c conda-forge scanpy pandas numpy scipy statsmodels matplotlib seaborn
 
-### 📂 Usage
-
-To run the analysis, execute the Python script in your local environment or Jupyter notebook:
+📂 Usage
+To run the analysis, execute the Python script in your local environment or Jupyter Notebook:
 
 python script.py
 
