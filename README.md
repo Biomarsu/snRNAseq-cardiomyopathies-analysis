@@ -61,11 +61,11 @@ Ensure you have the following Python packages installed:
 
 ```bash
 pip install pandas numpy scanpy scipy statsmodels matplotlib seaborn
-
+```
 or using Conda:
-
+```
 conda install -c conda-forge scanpy pandas numpy scipy statsmodels matplotlib seaborn
-
+```
 📂 Usage
 To run the analysis, execute the Python script in your local environment or Jupyter Notebook:
 
