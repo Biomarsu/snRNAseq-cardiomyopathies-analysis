@@ -67,7 +67,8 @@ or
 
 conda install -c conda-forge scanpy pandas numpy scipy statsmodels matplotlib seaborn
 
-###📂 Usage
+### 📂 Usage
+
 To run the analysis, execute the Python script in your local environment or Jupyter notebook:
 
 python script.py
