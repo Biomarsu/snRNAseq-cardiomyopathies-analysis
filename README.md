@@ -66,11 +66,11 @@ or using Conda:
 ```
 conda install -c conda-forge scanpy pandas numpy scipy statsmodels matplotlib seaborn
 ```
-📂 Usage
+### 📂 Usage
 To run the analysis, execute the Python script in your local environment or Jupyter Notebook:
-
+```
 python script.py
-
+```
 ## References
 
 *   Caliskan, A., Rasbach, L., Yu, W., et al. (2023). Optimized cell type signatures revealed from single-cell data by combining principal feature analysis, mutual information, and machine learning. *Computational and Structural Biotechnology Journal, 21*, 3293-3314.
